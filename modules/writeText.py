@@ -5,7 +5,7 @@ from datetime import datetime as dt
 from .videoSize import get_video_dimensions
 
 os.environ["IMAGEIO_FFMPEG_EXE"] = r"/opt/homebrew/bin/ffmpeg" # changed to work on macos (brew install ffmpeg)
-# os.environ["IMAGEIO_FFMPEG_EXE"] = r"C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\ffmpeg.exe"
+# os.environ["IMAGEIO_FFMPEG_EXE"] = r"C:\Program Files\ImageMagick-7.1.1-Q16-HDRI\ffmpeg.exe" #uncomment this line if you are on windows
 
 def add_caption_overlay(video_path, srt_path):
     video_filename = os.path.splitext(os.path.basename(video_path))[0]
