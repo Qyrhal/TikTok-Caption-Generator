@@ -1,0 +1,14 @@
+# Python Requirements
+moviepy
+os
+pysrt
+datetime
+-U openai-whisper
+
+# You must also install ffmpeg
+# ----------------------------
+# Macos: brew install ffmpeg
+# Windows (Using Chocolatey): choco install ffmpeg
+# Arch Linux: sudo pacman -S ffmpeg
+
+# For more information on as in why you must install this : https://github.com/openai/whisper
