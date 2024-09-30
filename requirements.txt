@@ -3,7 +3,6 @@ moviepy
 os
 pysrt
 datetime
--U openai-whisper
 
 # You must also install ffmpeg
 # ----------------------------

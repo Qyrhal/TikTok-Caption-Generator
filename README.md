@@ -14,6 +14,12 @@ Takes an mp4 video and adds captions on top
 pip install -r requirements.txt
 ```
 
+Install Whisper model 
+
+```bash
+pip install -U openai-whisper
+```
+
 ### Whisper OpenAI
 You must also install ffmpeg this for the Whisper model
 
