@@ -1,7 +1,7 @@
 # Python Requirements
 moviepy
-os
 pysrt
+opencv-python
 datetime
 
 # You must also install ffmpeg
