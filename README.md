@@ -20,6 +20,11 @@ Install Whisper model
 pip install -U openai-whisper
 ```
 
+For MacOs users 
+```bash
+brew install python-tk
+```
+
 ### Whisper OpenAI
 You must also install ffmpeg this for the Whisper model
 
